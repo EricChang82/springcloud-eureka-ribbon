@@ -10,7 +10,7 @@ import org.springframework.web.client.RestTemplate;
  * @author changle 
  * Create Time: 2019年4月17日 
  * Purpose: 实例化RestTemplate对象到容器，供 controller使用
- */
+ */ 
 @Configuration
 public class EurekaRibbonConfig {
  
