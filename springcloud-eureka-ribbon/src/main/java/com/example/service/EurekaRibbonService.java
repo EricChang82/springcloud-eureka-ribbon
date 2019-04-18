@@ -19,8 +19,8 @@ public class EurekaRibbonService {
             message = restTemplate.getForObject("http://EUREKA-CLIENT/info", String.class);
             //方式1--固定地址(不正确的方式)
 //            message = restTemplate.getForObject("http://127.0.0.1/info", String.class);
-            //            System.out.println("服务 EUREKA-CLIENT/info 返回信息 : " + message);
-            //            System.out.println("调用 服务 EUREKA-CLIENT/info 成功！");
+            //            Util.print("服务 EUREKA-CLIENT/info 返回信息 : " + message);
+            //            Util.print("调用 服务 EUREKA-CLIENT/info 成功！");
         } catch (Exception ex) {
             message = ex.getMessage();
         }
